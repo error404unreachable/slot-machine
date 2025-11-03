@@ -4,7 +4,10 @@ const out = document.getElementById("out");
 let money = 0;
 
 function addMoney() {
-    money += 1;
-    out.innerText = money;
-    console.log(money);
+    try {
+        money++;
+        out.innerText = "$ " + money;
+    } catch (e) {
+        console.log(e);
+    }
 }

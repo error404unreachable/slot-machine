@@ -13,13 +13,13 @@ function addMoney() {
 }
 
 function spin() {
-    let x = Math.floor(Math.random() * 7);
+    var x = Math.floor(Math.random() * 7);
     console.log(x);
     document.getElementById("slo1").innerText = "${x}";
-    let y = Math.floor(Math.random() * 7);
+    var y = Math.floor(Math.random() * 7);
     console.log(y);
     document.getElementById("slo1").innerText = "${y}";
-    let z = Math.floor(Math.random() * 7);
+    var z = Math.floor(Math.random() * 7);
     console.log(z);
     document.getElementById("slo1").innerText = "${z}";
 }

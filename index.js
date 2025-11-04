@@ -11,3 +11,12 @@ function addMoney() {
         console.log(e);
     }
 }
+
+function spin() {
+    let x = Math.floor(Math.random() * 7);
+    console.log(x);
+    let y = Math.floor(Math.random() * 7);
+    console.log(y);
+    let z = Math.floor(Math.random() * 7);
+    console.log(z);
+}

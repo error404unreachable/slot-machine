@@ -5,3 +5,10 @@ body {
 #out {
   color: #ffffff;
 }
+
+#machine {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: white;
+}

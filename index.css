@@ -12,3 +12,8 @@ body {
   display: block;
   color: white;
 }
+
+.slots {
+  size: 50px;
+  color: white;
+}

@@ -12,8 +12,19 @@ function addMoney() {
     }
 }
 
-function spin() {
-    document.getElementById("slo1").innerText = Math.floor(Math.random() * 7);
-    document.getElementById("slo1").innerText = Math.floor(Math.random() * 7);
-    document.getElementById("slo1").innerText = Math.floor(Math.random() * 7);
+function generateRandVals() {
+    x = Math.floor(Math.random * 7);
+    console.log(x);
+    y = Math.floor(Math.random * 7);
+    console.log(y);
+    z = Math.floor(Math.random * 7);
+    console.log(z);
+    return [x, y, z];
+}
+
+async function spin() {
+    let randVals = await generateRandVals(); 
+    document.getElementById("slo1").innerText = randVals[0];
+    document.getElementById("slo1").innerText = randVals[1];
+    document.getElementById("slo1").innerText = randVals[2];
 }

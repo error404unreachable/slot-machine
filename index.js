@@ -13,11 +13,11 @@ function addMoney() {
 }
 
 function generateRandVals() {
-    x = Math.floor(Math.random * 7);
+    x = Math.floor(Math.random() * 7);
     console.log(x);
-    y = Math.floor(Math.random * 7);
+    y = Math.floor(Math.random() * 7);
     console.log(y);
-    z = Math.floor(Math.random * 7);
+    z = Math.floor(Math.random() * 7);
     console.log(z);
     return [x, y, z];
 }

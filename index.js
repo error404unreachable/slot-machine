@@ -24,7 +24,7 @@ function generateRandVals() {
 
 async function spin() {
     let randVals = await generateRandVals(); 
-    document.getElementById("slo1").innerText = randVals[0];
-    document.getElementById("slo1").innerText = randVals[1];
-    document.getElementById("slo1").innerText = randVals[2];
+    document.getElementById("slot1").innerText = randVals[0];
+    document.getElementById("slot2").innerText = randVals[1];
+    document.getElementById("slot3").innerText = randVals[2];
 }

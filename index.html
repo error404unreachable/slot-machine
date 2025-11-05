@@ -6,11 +6,15 @@
     <link rel="stylesheet" href="index.css" type="text/css"/>
   </head>
   <body onload="alert('Warning!\nProceed at your own risk...');">
-    <div id="machine">
-      <p class="slots" id="slot1"></p>
-      <p class="slots" id="slot2"></p>
-      <p class="slots" id="slot3"></p>
-    </div>
+    <span id="machine">
+      <div class="slots">
+        <p id="slot1"> </p>
+      </div>
+      <div class="slots">
+        <p id="slot2"> </p>
+      
+        <p id="slot3"> </p>
+    </span>
     <p id="out"> </p>
     <button onclick="addMoney();">Click Here...</button>
     <button onclick="spin();">Spin!</button>

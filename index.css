@@ -17,11 +17,25 @@ body {
 
 .slots {
   width: 30%;
-  height: 100px;
+  height: 450px;
   color: white;
   text-align: center;
   display: inline-block;
   margin: 1px;
   padding: 10px;
   border: 1px solid white;
+  font-size: 250px;
+  animation-name: hue;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes hue {
+  0% {color:white;}
+  20% {color:red;}
+  40% {color:#49fb35;}
+  60% {color:blue;}
+  80% {color:gray;}
+  100% {color:dark-grey;}
 }

@@ -7,43 +7,21 @@ body {
 }
 
 #machine {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  height: 500px;
+  width: 100%;
+  display: inline-block;
   color: white;
+  text-align: center;
+  border: 2px solid #ffffff;
 }
 
 .slots {
   width: 30%;
   height: 100px;
   color: white;
-  align-content: center;
-  display: inline;
-  margin: auto;
+  text-align: center;
+  display: inline-block;
+  margin: 1px;
   padding: 10px;
   border: 1px solid white;
-}
-
-#slot1 {
-  font-size: 10px;
-  align-content: center;
-  margin: auto;
-  display: inline-block;
-  color: #ff0000;
-}
-
-#slot2 {
-  font-size: 10px;
-  align-content: center;
-  margin: auto;
-  display: inline-block;
-  color: #00ff00;
-}
-
-#slot3 {
-  font-size: 10px;
-  align-content: center;
-  margin: auto;
-  display: inline-block;
-  color: #0000ff;
 }

@@ -15,8 +15,9 @@ body {
 
 .slots {
   width: 30vw;
-  height: auto;
+  height: 100px;
   color: white;
   align-content: center;
   display: inline;
+  margin: auto;
 }

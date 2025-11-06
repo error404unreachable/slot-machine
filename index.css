@@ -20,4 +20,6 @@ body {
   align-content: center;
   display: inline;
   margin: auto;
+  padding: 10px;
+  border: 1px solid white;
 }

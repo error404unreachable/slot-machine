@@ -7,17 +7,18 @@ body {
 }
 
 #machine {
-  height: 500px;
+  height: 800px;
   width: 100%;
   display: inline-block;
   color: white;
   text-align: center;
   border: 2px solid #ffffff;
+  align-content: center;
 }
 
 .slots {
   width: 30%;
-  height: 450px;
+  height: 750px;
   color: white;
   text-align: center;
   display: inline-block;
@@ -25,10 +26,29 @@ body {
   padding: 10px;
   border: 1px solid white;
   font-size: 250px;
+}
+
+#slot1 {
   animation-name: hue;
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+}
+
+#slot2 {
+  animation-name: hue;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+}
+
+#slot3 {
+  animation-name: hue;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
 }
 
 @keyframes hue {

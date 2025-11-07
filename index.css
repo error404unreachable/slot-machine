@@ -45,7 +45,7 @@ body {
 
 #slot3 {
   animation-name: hue;
-  animation-duration: 4s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-delay: 2s;

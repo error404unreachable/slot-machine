@@ -54,8 +54,12 @@ body {
 @keyframes hue {
   0% {color:white;}
   20% {color:red;}
+  30% {color: orange;}
   40% {color:#49fb35;}
+  50% {color: cyan;}
   60% {color:blue;}
-  80% {color:gray;}
-  100% {color:dark-grey;}
+  70% {color: indigo;}
+  80% {color:purple;}
+  90% {color: #555555;}
+  100% {color: #aaaaaa;}
 }

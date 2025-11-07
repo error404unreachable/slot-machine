@@ -40,7 +40,7 @@ body {
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  animation-delay: 1s;
+  animation-delay: 500ms;
 }
 
 #slot3 {
@@ -48,7 +48,7 @@ body {
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  animation-delay: 2s;
+  animation-delay: 1000ms;
 }
 
 @keyframes hue {
